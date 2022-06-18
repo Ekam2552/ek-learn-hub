@@ -1,0 +1,57 @@
+.navbar {
+  background: rgb(224, 224, 224);
+  background: linear-gradient(
+    90deg,
+    rgba(224, 224, 224, 1) 8%,
+    rgba(102, 136, 188, 0.7542367288712359) 32%,
+    rgba(108, 13, 242, 0.6617997540813201) 100%
+  );
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  position: sticky;
+}
+
+.navbar > * {
+  padding: 0 0.7rem;
+}
+
+.button {
+  background-color: none;
+  color: rgb(214, 211, 211);
+  border: none;
+  text-decoration: none;
+  margin-left: 10px;
+  padding: 0.5rem 0.4rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.2s ease-in-out;
+}
+
+.button:hover {
+  color: #f45415;
+}
+
+/* add media query for navbar for smaller screen, collapse the buttons into a single navbar dropdown */
+@media screen and (max-width: 600px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar > * {
+    margin: 0.5rem 0;
+  }
+
+  .button {
+    font-size: 0.8rem;
+  }
+}

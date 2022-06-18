@@ -1,0 +1,64 @@
+.landing-page {
+  width: 100vw;
+  height: 100vh;
+  background: rgb(224, 224, 224);
+  background: linear-gradient(
+    36deg,
+    rgba(224, 224, 224, 0.5945728633250176) 10%,
+    rgba(102, 182, 188, 0.7766456924566701) 32%,
+    rgba(35, 181, 235, 0.7402311266303396) 100%
+  );
+}
+
+.landing-page-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.who-am-I-div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.who-am-I-div > * {
+  margin: 1rem 0;
+}
+
+.landing-page-image {
+  width: 40rem;
+  height: 30rem;
+  border: 1px solid #000;
+}
+
+.who-am-I-text {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.who-am-I-text > h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #000;
+  margin: 0;
+  color: rgb(210, 119, 40);
+}
+
+.who-am-I-text > p {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #000;
+  text-align: center;
+}
