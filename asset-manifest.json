@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ek_learn_hub/static/css/main.a3f83d26.css",
+    "main.js": "/ek_learn_hub/static/js/main.9504a8c7.js",
+    "static/js/787.73d18907.chunk.js": "/ek_learn_hub/static/js/787.73d18907.chunk.js",
+    "static/media/landing-page-image.jpg": "/ek_learn_hub/static/media/landing-page-image.556cf9e809f10cdcce0c.jpg",
+    "index.html": "/ek_learn_hub/index.html",
+    "main.a3f83d26.css.map": "/ek_learn_hub/static/css/main.a3f83d26.css.map",
+    "main.9504a8c7.js.map": "/ek_learn_hub/static/js/main.9504a8c7.js.map",
+    "787.73d18907.chunk.js.map": "/ek_learn_hub/static/js/787.73d18907.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a3f83d26.css",
+    "static/js/main.9504a8c7.js"
+  ]
+}
