@@ -2,7 +2,7 @@
   "name": "ek_learn_hub",
   "homepage": "https://ekam2552.github.io/ek_learn_hub",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@mantine/core": "^4.2.9",
     "@mantine/hooks": "^4.2.9",
