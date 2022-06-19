@@ -4,6 +4,8 @@ import "./Navbar.css";
 import { authentication } from "../../firebase/firebase";
 import { signInWithPopup, GoogleAuthProvider, signOut } from "firebase/auth";
 
+import { Image } from "@mantine/core";
+
 export const Navbar = () => {
   const [isUserSignedIn, setIsUserSignedIn] = useState(false);
 
@@ -41,7 +43,14 @@ export const Navbar = () => {
 
   return (
     <div class="navbar">
-      <div class="logo">Logo</div>
+      <div class="logo">
+        <Image
+          src={require("../../assets/icon.png")}
+          alt="logo"
+          height="4rem"
+          width="4rem"
+        />
+      </div>
       <div class="buttons">
         <a className="button" href="/">
           Home
